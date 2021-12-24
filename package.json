@@ -1,0 +1,31 @@
+{
+  "name": "lefevre-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamlefevre/lefevre-app.git"
+  },
+  "keywords": [],
+  "author": "Adam LeFevre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamlefevre/lefevre-app/issues"
+  },
+  "homepage": "https://github.com/adamlefevre/lefevre-app#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
