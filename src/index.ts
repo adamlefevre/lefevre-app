@@ -1,3 +1,14 @@
-const message: string = 'hello, world';
+import express from 'express';
 
-console.log(message);
+const app = express();
+const port = 3000;
+
+app.listen(port, () => {
+  console.log(`Hello, world!`);
+});
+
+const myFunc = (num: number): number => {
+  return num * num;
+};
+
+export default myFunc;
